@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --dark-color:      #19283f;
+    --section-color:   #EFF7FA;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    background-color: var(--dark-color);
+    color: var(--dark-color);
+}
+
+.form-part .container-content {
+    background-color: var(--section-color);
+    box-shadow:  0 5px 15px 2px var(--section-color);
+    margin: auto 50px;
+}
+
+.form-part .container-content p {
+    font-size: 14px;
+    margin: 20px 0;
+    letter-spacing: 0.8px;
+}
+
+.form-part .container-content span {
+    font-size: 14px;
+}
+
+.form-part .container-content a {
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--dark-color);
+    margin: 15px 0 10px;
+}
+.form-part .container-content button {
+    border: none;
+    background-color: var(--dark-color);
+    color: var(--section-color);
+    padding: 10px 45px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    letter-spacing: 0.8px;
+}
+
+.form-part .container-content button:hover {
+    background-color: #19283fef;
+}
+
+.form-part .container-content button.hidden {
+    background-color: transparent;
+}
+
+.form-part .container-content .form-container form {
+    background-color: var(--section-color);
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-part .container-content input {
+    outline: none;
+    border: none;
+
+    background-color: #dfdede;
+    
+    width: 100%;
+    margin: 10px 0;
+    
+    padding: 15px 10px;
+    border-radius: 8px;
+    
+    caret-color: var(--dark-color);
+    font-size: 14px;
+}
+
+.form-part .container-content .form-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+}
+
+.sign-in,
+.sign-up {
+    width: 50%;
+    left: 0;
+}
+.sign-in {
+    z-index: 5;
+}
+
+.sign-up {
+    opacity: 0;
+    z-index: 1;
+}
+
+.container-content.active .sign-in,
+.container-content.active .sign-up {
+    transform: translateX(100%);
+}
+.container-content.active .sign-up {
+    opacity: 1;
+    z-index: 7;
+    animation: move 0.6s;
+}
+
+@keyframes move {
+    0% , 50% {
+        z-index: 1;
+        opacity: 0;
+    } 
+    51% , 100% {
+        opacity: 1;
+        z-index: 7;
+    }
+}
+
+.media-icons {
+    margin: 10px 0;
+}
+
+.media-icons a {
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+
+    display: inline-flex;
+    justify-content: center;
+ 
+    align-items: center;
+    font-size: 17px !important;
+}
+
+.form-part .container-content .toggle-container {
+    position: relative;
+    top: 0;
+    left: 50%;
+
+    width: 50%;
+    height: 100%;
+
+    transition: all 0.6s ease-in-out;
+    overflow: hidden;
+    z-index: 1100;
+}
+
+.form-part .container-content .toggle-container .toggle {
+    background-color: var(--dark-color);
+    color: var(--section-color);
+    height: 100%;
+}
+.form-part .container-content .toggle-container .toggle button {
+    border: 1px solid var(--section-color);
+}
