@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> intern | ahmed nayel </title>
+
+    <!-- bootstrap connect -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- main style -->
+    <link rel="stylesheet" href="css/styling.css">
+
+    <!-- normalization -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- logo to the page -->
+    <link rel="icon" href="imgs/logo.png">
+
+    <!-- JQuery Connect -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <header class="sticky-top">
+       <section>
+          <nav class="navbar navbar-expand-lg">
+            <div class="container">
+
+              <a class="navbar-brand" href="index.html">
+                <img src="imgs/logo.png" alt="logo image">
+              </a>
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars text-light "></i>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="main">
+                
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  
+                  <li class="nav-item">
+                    <a class="nav-link  p-2 p-lg-3 active text-light text-capitalize" aria-current="page" href="index.html">home</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link p-2 p-lg-3 text-light  text-capitalize" href="#feature">services</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link p-2 p-lg-3 text-light  text-capitalize" target="_blank" href="https://ahmed-aldarabee.netlify.app/">portfolio</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link p-2 p-lg-3 text-light  text-capitalize" href="#about">about us</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link p-2 p-lg-3 text-light  text-capitalize" href="#contact">contact us</a>
+                  </li>
+
+                </ul>
+
+                <div class="search ps-3 pe-3 d-none d-lg-block">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="login-btn">
+                  <a href="login.html" target="_blank" class="btn btn-primary rounded-pill text-capitalize">login</a>
+                </div>
+
+              </div>
+
+            </div>
+          </nav>
+       </section>
+    </header>
+
+    <main>
+
+      <!-- page editions -->
+
+      <section>
+        <div class="scroll-bar text-center p-1 rounded-circle">
+          <i class="fa-solid fa-arrow-up"></i>
+        </div>
+      </section>
+
+      <section>
+        <div class="progress-bar"></div>
+      </section>
+
+      <!-- loading part -->
+      <section>
+        <div class="center-page">
+          <div class="ring"></div>
+          <span>hello</span>
+        </div>
+      </section>
+
+      <!--  -->
+
+      <section>
+        <div class="landing-page d-flex justify-content-center align-items-center">
+          <div class="text-center">
+            <h3 class="fs-4">welcome in ahmed nayel world</h3>
+            <p class="fs-6 text-secondary">Belding new website by bootstrap technology!</p>
+            <a href="https://ahmed-aldarabee.netlify.app/" target="_blank" class="btn btn-primary rounded-pill text-capitalize">get started</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="feature">
+        <div class="features text-center pt-5 pb-5">
+          
+          <div class="container">
+            
+            <div class="main-title position-relative">
+              <img src="imgs/algorithm.png" alt="feature image">
+              <h3 class="text-capitalize mt-4" >our features</h3>
+              <p class="text-uppercase fs-6">When you want to know how we can do it</p>
+            </div>
+
+            <!-- grid system  -->
+            <!-- each row have  ... -->
+            <div class="row">
+              <!-- col one -->
+              <div class="col-md-6 col-lg-4">                
+                <div class="feat">
+                  <!-- holder: mmsk ll-element-->
+                  <!-- icon part -->
+                  <div class="icon-holder position-relative">
+                    <i class="fa-solid fa-1 number position-absolute bottom-0"></i>
+                    <i class="fa-solid fa-pen pen position-absolute bottom-0"></i>
+                  </div>
+
+                  <div class="content-info">
+                    <h4 class="mb-3 mt-3 text-capitalize">software designing</h4>
+                    <p class="text-black-50 lh-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A hic expedita aliquid natus quasi. Dignissimos tempore consectetur delectus voluptatum autem?</p>
+                  </div>                
+                </div>
+              </div>              
+              <!-- col two -->
+              <div class="col-md-6 col-lg-4">
+                <div class="feat">
+                  <!-- holder: mmsk ll-element-->
+                  <!-- icon part -->
+                  <div class="icon-holder position-relative">
+                    <i class="fa-solid fa-2 number position-absolute bottom-0"></i>
+                    <i class="fa-solid fa-code pen position-absolute bottom-0"></i>
+                  </div>
+
+                  <div class="content-info">
+                    <h4 class="mb-3 mt-3 text-capitalize">software development</h4>
+                    <p class="text-black-50 lh-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A hic expedita aliquid natus quasi. Dignissimos tempore consectetur delectus voluptatum autem?</p>
+                  </div>                
+                </div>
+              </div>
+              <!-- col three -->
+              <div class="col-md-6 col-lg-4">
+                <div class="feat">
+                  <!-- holder: mmsk ll-element-->
+                  <!-- icon part -->
+                  <div class="icon-holder position-relative">
+                    <i class="fa-solid fa-3 number position-absolute bottom-0"></i>
+                    <i class="fa-regular fa-lightbulb pen position-absolute bottom-0"></i>
+                  </div>
+
+                  <div class="content-info">
+                    <h4 class="mb-3 mt-3 text-capitalize">software consulting</h4>
+                    <p class="text-black-50 lh-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A hic expedita aliquid natus quasi. Dignissimos tempore consectetur delectus voluptatum autem?</p>
+                  </div>                
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="our-work text-center pt-5 pb-5">
+          <div class="container">
+
+            <div class="main-title position-relative">
+              <img src="imgs/algorithm.png" alt="feature image">
+              <h3 class="text-capitalize mt-4" >we make this</h3>
+              <p class="text-uppercase fs-6">try to show all what can be do !</p>
+            </div>
+
+            <div class="links">
+              <ul class="text-capitalize list-unstyled d-flex justify-content-center mt-4 mb-4">
+                <li class="px-3 active">all</li>
+                <li class="p-2">design</li>
+                <li class="p-2">code</li>
+                <li class="p-2">photo</li>
+                <li class="p-2">app</li>
+              </ul>
+            </div>
+
+            <div class="grid-system-gallery">
+              <div class="row">
+  
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="box mb-3 bg-white position-relative overflow-hidden" data-work="application">
+                    <img class="img-fluid p-1" src="imgs/work-01.jpg" alt="working image">
+                  </div>
+                </div>
+                
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="box mb-3 bg-white position-relative overflow-hidden" data-work="application">
+                    <img class="img-fluid p-1" src="imgs/work-02.jpg" alt="working image">
+                  </div>
+                </div>
+  
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="box mb-3 bg-white position-relative overflow-hidden" data-work="application">
+                    <img class="img-fluid p-1" src="imgs/work-03.jpg" alt="working image">
+                  </div>
+                </div>
+  
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="box mb-3 bg-white position-relative overflow-hidden" data-work="application">
+                    <img class="img-fluid p-1" src="imgs/work-04.jpg" alt="working image">
+                  </div>
+                </div>
+  
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="box mb-3 bg-white position-relative overflow-hidden" data-work="application">
+                    <img class="img-fluid p-1" src="imgs/work-05.jpg" alt="working image">
+                  </div>
+                </div>
+                
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="box mb-3 bg-white position-relative overflow-hidden" data-work="application">
+                    <img class="img-fluid p-1" src="imgs/work-06.jpg" alt="working image">
+                  </div>
+                </div>
+  
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="box mb-3 bg-white position-relative overflow-hidden" data-work="application">
+                    <img class="img-fluid p-1" src="imgs/work-07.jpg" alt="working image">
+                  </div>
+                </div>
+  
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="box mb-3 bg-white position-relative overflow-hidden" data-work="application">
+                    <img class="img-fluid p-1" src="imgs/work-08.jpg" alt="working image">
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+            
+            <div class="know-more mt-5 mb-5">
+              <a href="https://ahmed-aldarabee.netlify.app/" target="_blank" class="btn btn-primary rounded-pill text-capitalize">i want to know more</a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="stuff pt-5 pb-5">
+          <div class="container">
+
+            <div class="main-title position-relative text-center">
+              <img src="imgs/algorithm.png" alt="feature image">
+              <h3 class="text-capitalize mt-4" >Some Stuff About Us</h3>
+              <p class="text-uppercase fs-6"> we have a grate team </p>
+            </div>
+
+            <div class="description text-center m-auto mt-4 mb-4">
+              <p class="text-black-50">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+            </div>
+
+            <div class="row align-items-center">
+              
+              <div class="col-lg-4">
+                <div class="text-content text-center text-md-start mb-1">
+
+                  <h3 >Retina Design</h3>
+
+                  <p class="text-black-50 fs-6">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+                  <p class="text-black-50 fs-6 mt-3"> Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+                  
+                  <a href="https://ahmed-aldarabee.netlify.app/" target="_blank" class="btn btn-primary rounded-pill text-capitalize mt-2 mb-3">order me one</a>
+                </div>
+              </div>
+
+              <div class="col-lg-8">
+                <div class="img">
+                  <img class="img-fluid" src="imgs/laptop.png" alt="laptop image">
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="our-team pt-5 pb-5">
+            <div class="container pt-5 pb-5">
+              <div class="main-title text-center mb-3 position-relative">
+                <h2 class="text-capitalize">meet the team</h2>
+                <p class="text-black-50 mt-2">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+              </div>
+
+              <!-- imgs gellary -->
+
+              <div class="row">
+
+                <div class="col-lg-3 col-md-6 mt-3 mb-3">
+
+                  <div class="box text-center bg-white">
+                    
+                    <div class="img">
+                      <img class="img-fluid" src="imgs/team-1.png" alt="team image">
+                    </div>
+
+                    <h5 class="p-2 text-capitalize text-light">Luke Skywalker</h5>
+                    <q class="p-2 text-black-50 fs-6">I don't understand how we got by those troops. I thought we were dead.</q>
+                  </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 mt-3 mb-3">
+
+                  <div class="box text-center bg-white">
+                    
+                    <div class="img">
+                      <img class="img-fluid" src="imgs/team-2.png" alt="team image">
+                    </div>
+
+                    <h5 class="p-2 text-capitalize text-light">mohamed malek</h5>
+                    <q class="p-2 text-black-50 fs-6">I don't understand how we got by those troops. I thought we were dead.</q>
+                  </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 mt-3 mb-3">
+
+                  <div class="box text-center bg-white">
+                    
+                    <div class="img">
+                      <img class="img-fluid" src="imgs/team-3.png" alt="team image">
+                    </div>
+
+                    <h5 class="p-2 text-capitalize text-light">ali subhan</h5>
+                    <q class="p-2 text-black-50 fs-6">I don't understand how we got by those troops. I thought we were dead.</q>
+                  </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 mt-3 mb-3">
+
+                  <div class="box text-center bg-white">
+                    
+                    <div class="img">
+                      <img class="img-fluid" src="imgs/team-4.png" alt="team image">
+                    </div>
+
+                    <h5 class="p-2 text-capitalize text-light">osama mohammed</h5>
+                    <q class="p-2 text-black-50 fs-6">I don't understand how we got by those troops. I thought we were dead.</q>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="our-tech text-center pt-5 pb-5">        
+          <div class="container align-items-center">
+            <div class="row">
+              <div class="col-sm-6 col-md-4 col-lg-2 p-2 mt-3 mb-4">
+                <div class="box">
+                  <img src="imgs/tech-1.png" alt="technology image">
+                </div>        
+              </div>
+              
+              <div class="col-sm-6 col-md-4 col-lg-2 p-2 mt-3 mb-4">
+                <div class="box">
+                  <img src="imgs/tech-2.png" alt="technology image">
+                </div>        
+              </div>
+              
+              <div class="col-sm-6 col-md-4 col-lg-2 p-2 mt-3 mb-4">
+                <div class="box">
+                  <img src="imgs/tech-3.png" alt="technology image">
+                </div>        
+              </div>
+              
+              <div class="col-sm-6 col-md-4 col-lg-2 p-2 mt-3 mb-4">
+                <div class="box">
+                  <img src="imgs/tech-4.png" alt="technology image">
+                </div>        
+              </div>
+    
+              <div class="col-sm-6 col-md-4 col-lg-2 p-2 mt-3 mb-4">
+                <div class="box">
+                  <img src="imgs/tech-1.png" alt="technology image">
+                </div>        
+              </div>
+    
+              <div class="col-sm-6 col-md-4 col-lg-2 p-2 mt-3 mb-4">
+                <div class="box">
+                  <img src="imgs/tech-2.png" alt="technology image">
+                </div>        
+              </div>
+            </div>            
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="starting-pro text-center pt-5 pb-5">
+            <div class="content">
+              <h3 class="text-capitalize text-light"> start your project now </h3>
+              <p class="fs-6 mt-1 text-light">Leave your description and we start the engine.Don't worry,you can cancel anytime</p>
+            </div>
+
+            <div class="project-btn">
+              <a  href="https://ahmed-aldarabee.netlify.app/" target="_blank" class="btn btn-primary rounded-pill text-capitalize mt-3 mb-5">start project</a>
+            </div>
+        </div>
+      </section>
+
+      <section>
+         <div class="our-blog pt-5 pb-5">
+            <div class="container">
+              
+              <div class="main-title text-center position-relative">
+                <img src="imgs/algorithm.png" alt="feature image">
+                <h3 class="text-capitalize mt-4" >our blog</h3>
+                <p class="text-uppercase fs-6">new stories</p>
+              </div>
+
+              <div class="row mt-5 mb-5">
+
+                  <div class="col-md-6 col-lg-4 mt-3 mb-4">
+                    <div class="box">
+                      <div class="img-part">
+                        <img class="img-fluid" src="imgs/blog-1.jpg" alt="normal image">
+                      </div>
+
+                      <div class="content p-1 bg-white">
+                        <span class="fs-6 text-secondary">Jan 17, 2024</span>
+                        <h5 class="text-capitalize">php laravel news</h5>
+                      </div>
+
+
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-4 mt-3 mb-4">
+                    <div class="box">
+                      <div class="img-part">
+                        <img class="img-fluid" src="imgs/blog-2.jpg" alt="normal image">
+                      </div>
+
+                      <div class="content p-1 bg-white">
+                        <span class="fs-6 text-secondary">Jan 17, 2024</span>
+                        <h5 class="text-capitalize">web development news</h5>
+                      </div>
+
+
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-4 mt-3 mb-4">
+                    <div class="box">
+                      <div class="img-part">
+                        <img class="img-fluid" src="imgs/blog-3.jpg" alt="normal image">
+                      </div>
+
+                      <div class="content p-1 bg-white">
+                        <span class="fs-6 text-secondary">Jan 17, 2024</span>
+                        <h5 class="text-capitalize">programming news</h5>
+                      </div>
+
+
+                    </div>
+                  </div>
+                  
+              </div>
+
+              <div class="project-btn text-center">
+                <a href="https://ahmed-aldarabee.netlify.app/" target="_blank" class="btn btn-primary rounded-pill text-capitalize mt-3 mb-5">more stories...</a>
+              </div>
+
+            </div>
+         </div>
+      </section>
+
+      <section id="contact">
+        <div class="subscribe-part pt-5 pb-5 text-center">
+
+          <div class="container">
+
+            <from class="row align-content-center">
+
+              <div class="col-md-6 col-lg-3">
+                <p class="text-capitalize text-dark fs-6">subscribe to our newsletter</p>
+              </div>
+
+              <div class="col-md-6 col-lg-7">
+                <input class="p-1 w-100 bg-transparent" type="email" placeholder="enter your email">
+              </div>
+
+              <div class="col-md-6 col-lg-2">
+                <input class="btn rounded-pill px-3 pt-1 pb-1 text-capitalize" type="submit" value="subscribe">
+              </div>
+
+            </from>
+
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer pt-5 pb-5">
+        <div class="container">
+          <div class="content row">
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box">
+                  <div class="img-part">
+                    <img class="img-fluid" src="imgs/logo.png" alt="logo image">
+                  </div>
+  
+                  <div class="content-part mt-3 mb-3">
+                    <p class="text-light">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                  </div>
+  
+                  <div class="rights mt-3 mb-3">
+                    <p class="text-light">created by <span class="text-info"> ahmed nayel</span> </p>
+                    <p class="text-light">&copy; 2022 - elzero</p>
+                  </div>
+  
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="box">
+                <div class="topic">
+                  <h4 class="fw-bold text-capitalize mt-3 mb-3 text-light">links</h4>
+                </div>
+                <div class="links-part">
+                  <ul class="list-unstyled text-capitalize">
+                    <li class="text-light">home</li>
+                    <li class="text-light">our services</li>
+                    <li class="text-light">portfolio</li>
+                    <li class="text-light">testimonials</li>
+                    <li class="text-light">support</li>
+                    <li class="text-light">teams and condition</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="box">
+                <div class="topic">
+                  <h4 class="fw-bold text-capitalize mt-3 mb-3 text-light">about us</h4>
+                </div>
+                <div class="links-part">
+                  <ul class="list-unstyled text-capitalize">
+                    <li class="text-light">sign in</li>
+                    <li class="text-light">register</li>
+                    <li class="text-light">about us</li>
+                    <li class="text-light">blogs</li>
+                    <li class="text-light">contact us</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="box">
+                
+                <div class="topic">
+                  <h4 class="fw-bold text-capitalize text-light">contact us</h4>
+                </div>
+
+                <div class="content-part mt-3 mb-3">
+                  <p class="text-light">get in touch with us via mail phone.We are waiting for your call or message</p>
+                </div>
+
+                <div class="login-btn mt-3 mb-3">
+                  <a href="index.html" class="btn btn-primary rounded-pill text-capitalize">seahmednail@gmail.com</a>
+                </div>
+
+                <div class="media-info d-flex justify-content-center align-content-center">
+                  <a class="d-block text-light p-2 m-2" href="https://www.facebook.com/Darabi78" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a class="d-block text-light p-2 m-2" href="https://www.linkedin.com/in/ahmed-al-darabee-4928ba250/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <a class="d-block text-light p-2 m-2" href="https://github.com/ahmedaldarabee" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</body>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</html>
