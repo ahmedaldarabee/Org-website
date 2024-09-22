@@ -1,9 +1,3 @@
-
-
-
-
-
-
 let loginBtn = document.querySelector("#login");
 let registerBtn = document.querySelector("#register");
 let container = document.querySelector("#container");
